@@ -1,0 +1,310 @@
+.settings-details-content-child {
+  width: 114.938rem;
+  height: 40.813rem;
+  position: relative;
+  background-color: var(--color-steelblue-400);
+  display: none;
+  max-width: 100%;
+}
+.langage {
+  display: inline-block;
+  min-width: 6.313rem;
+}
+.color-scheme,
+.langage,
+.map-provider,
+.map-type,
+.stream-gcs-position,
+.ui-scaling {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+
+.control-labels {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.3rem; 
+  min-width: 15.063rem;
+}
+
+/* .value-symbols {
+  flex: 1;
+  line-height: 100%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+} */
+
+.value-slider {
+  height: 3rem;
+  width: 5rem;
+  background-color: var(--color-skyblue-100);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.value-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.minus,
+.plus {
+  width: 3.5rem; 
+  height: 3rem; 
+  background-color: var(--color-steelblue-200);
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  font-size: 2rem;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.drop-down {
+  height: 3rem;
+}
+
+.drop-down-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 1rem; 
+}
+
+.control-options,
+.controls-container,
+.drop-down-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.control-options {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 10.125rem;
+  color: var(--color-white);
+}
+
+.controls-container {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+}
+
+.component-22,
+.component-23,
+.component-24,
+.component-25 {
+  margin: 0;
+  width: 1.063rem;
+  height: 1.063rem;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 0.5px solid var(--color-dimgray);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.components,
+.components-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.components {
+  gap: var(--gap-3xl);
+}
+
+.components-container {
+  padding: var(--padding-7xs) 0 0;
+}
+
+.check-for-internet,
+.clear-all-settings,
+.enable-remote-id,
+.mute-all-audio {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: calc(100% - 37px);
+}
+
+.components-container-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+
+.components-container-parent,
+.controls-container-parent,
+.settings-controls {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.controls-container-parent {
+  width: 32.563rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+
+.settings-controls {
+  width: 43.75rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+
+.application-loadsave-path {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.path-settings,
+.path-value {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.path-value {
+  width: 21.875rem;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+
+.browse {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 4.875rem;
+}
+
+.browse-button,
+.browse-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.browse-container {
+  background-color: var(--color-steelblue-200);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-2xs);
+  z-index: 2;
+}
+
+.browse-button {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+
+.application-settings,
+.settings-details-content {
+  width: 43.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+
+.settings-details-content {
+  width: 114.938rem;
+  background-color: var(--color-steelblue-400);
+  align-items: center;
+  padding: var(--padding-71xl) var(--padding-xl) var(--padding-71xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xl);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-skyblue-100);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 975px) {
+  .control-labels {
+    flex: 1;
+  }
+  .controls-container,
+  .path-settings {
+    flex-wrap: wrap;
+  }
+  .settings-details-content {
+    padding-top: var(--padding-39xl);
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .color-scheme,
+  .langage,
+  .map-provider,
+  .map-type,
+  .stream-gcs-position,
+  .ui-scaling {
+    font-size: var(--font-size-lgi);
+  }
+  .div,
+  .value-symbols {
+    line-height: 1.188rem;
+  }
+  .application-loadsave-path,
+  .check-for-internet,
+  .clear-all-settings,
+  .div,
+  .enable-remote-id,
+  .mute-all-audio,
+  .value-symbols {
+    font-size: var(--font-size-lgi);
+  }
+}

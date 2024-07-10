@@ -1,0 +1,102 @@
+
+.unit {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  height: 3rem; /* Same height as the dropdown */
+}
+
+.unit-types {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs); /* Adjusted gap */
+  min-width: 14.313rem;
+}
+
+.dropdown {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 3rem;
+  z-index: 2;
+}
+
+.dropdown-select {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  font-size: var(--font-size-5xl);
+  color: black;
+  font-family: var(--font-inter);
+}
+
+.unit-dropdowns,
+.units-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.unit-dropdowns {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-2xs);
+  min-width: 10.125rem;
+}
+
+.units-container {
+  width: 114.938rem;
+  background-color: var(--color-steelblue-400);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-71xl) var(--padding-646xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-skyblue-100);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 2000px) {
+  .unit-types {
+    flex: 1;
+  }
+  .units-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .units-container {
+    padding-left: var(--padding-313xl);
+    padding-right: var(--padding-313xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .units-container {
+    gap: var(--gap-mini);
+    padding-left: var(--padding-147xl);
+    padding-right: var(--padding-147xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .unit {
+    font-size: var(--font-size-lgi);
+  }
+  .units-container {
+    padding: var(--padding-39xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

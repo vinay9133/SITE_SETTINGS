@@ -1,0 +1,640 @@
+.safety-options-child {
+  width: 114.938rem;
+  height: 71.375rem;
+  position: relative;
+  background-color: var(--color-steelblue-400);
+  display: none;
+  max-width: 100%;
+}
+.checklist-components {
+  margin: 0;
+  height: 1.438rem;
+  width: 1.063rem;
+}
+.use-pre-flight-checklist {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.checklist-settings {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frame-input {
+  margin: 0;
+  height: 1.438rem;
+  width: 1.063rem;
+}
+.enforce-pre-flight-checklist {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.checklist-settings1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.component-10,
+.component-11,
+.component-12,
+.component-13,
+.component-14,
+.component-9 {
+  margin: 0;
+  width: 1.063rem;
+  height: 1.063rem;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 0.5px solid var(--color-dimgray);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.distance-components,
+.distance-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.distance-components {
+  gap: var(--gap-3xl);
+}
+.distance-options {
+  padding: var(--padding-7xs) 0 0;
+}
+.keep-map-centered {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.show-telemetry-log {
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+}
+.show-telemetry-log,
+.virtual-joystick {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.use-vertical-instrument {
+  display: inline-block;
+  max-width: 100%;
+}
+.lock-compass-nose-up,
+.show-additional-heading,
+.use-vertical-instrument {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.location-settings,
+.map-settings {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.map-settings {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  max-width: calc(100% - 37px);
+}
+.location-settings {
+  flex-direction: row;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.component-6,
+.component-7,
+.component-8 {
+  margin: 0;
+  width: 1.063rem;
+  height: 1.063rem;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 0.5px solid var(--color-dimgray);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.joystick-components,
+.joystick-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.joystick-components {
+  gap: var(--gap-3xl);
+}
+.joystick-options {
+  padding: var(--padding-7xs) 0 0;
+}
+.show-simple-camera {
+  display: inline-block;
+  max-width: 100%;
+}
+.enable-custom-actions,
+.show-simple-camera,
+.update-home-position {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.camera-options {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.guided-command-setting {
+  position: relative;
+  z-index: 2;
+}
+.camera-settings,
+.joystick-settings {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.camera-settings {
+  flex: 1;
+  flex-direction: column;
+  min-width: 36.75rem;
+}
+.joystick-settings {
+  align-self: stretch;
+  flex-direction: row;
+}
+.minimum-altitude {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.checklist-settings-child {
+  height: 1.75rem;
+  width: 9.375rem;
+  position: relative;
+  background-color: var(--color-skyblue-100);
+  z-index: 2;
+}
+.checklist-settings2 {
+  width: 32.313rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.minimum-altitude1 {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.checklist-settings-item {
+  height: 1.75rem;
+  width: 9.375rem;
+  position: relative;
+  background-color: var(--color-skyblue-100);
+  z-index: 2;
+}
+.checklist-settings3 {
+  width: 32.313rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.go-to-location {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.checklist-settings-inner {
+  height: 1.75rem;
+  width: 9.375rem;
+  position: relative;
+  background-color: var(--color-skyblue-100);
+  z-index: 2;
+}
+.checklist-settings4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.video-settings {
+  position: relative;
+  z-index: 2;
+}
+.video-settings-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-18xl);
+}
+.source{
+  display: inline-block;
+}
+.source {
+  top: 0.5rem;
+  position: relative;
+  font-weight: 600;
+  min-width: 5.125rem;
+  z-index: 2;
+}
+.udp-port {
+  min-width: 6.625rem;
+}
+
+.video-decode-priority {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.format-options {
+  margin-top: 1rem;
+  gap: var(--gap-3xs);
+}
+
+
+.format-options,
+.video-format,
+.video-source {
+  gap: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.video-format {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.video-source {
+  flex: 1;
+  gap: var(--gap-3xs);
+  min-width: 12.75rem;
+}
+.source{
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+  min-width: 5.125rem;
+  z-index: 2;
+  margin-top: 0rem;
+}
+.udp-port{
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+  min-width: 5.125rem;
+  z-index: 2;
+  margin-top: 0.8rem;
+}
+.aspect-ratio{
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+  min-width: 5.125rem;
+  z-index: 2;
+  margin-top: 0.5rem;
+}
+.record-file-format {
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+  min-width: 5.125rem;
+  z-index: 2;
+  margin-top: 0.5rem;
+}
+
+
+.dropdown-options select {
+  width: 100%;
+  height: 3rem;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  border-radius: var(--br-11xs);
+  padding: 0.5rem;
+  font-size: var(--font-size-lgi);
+  margin-bottom: 1rem; 
+}
+
+.arrow-child,
+.drop-down-child {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+} 
+.drop-down-child {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.arrow-child {
+  top: calc(50% - 14px);
+  left: calc(50% - 14px);
+  background-color: var(--color-gainsboro-100);
+}
+.arrow,
+.bxsup-arrow-icon {
+  position: absolute;
+  z-index: 1;
+}
+.bxsup-arrow-icon {
+  top: calc(50% - 9px);
+  left: calc(50% - 10px);
+  width: 1.125rem;
+  height: 1.125rem;
+  overflow: hidden;
+  object-fit: contain;
+}
+.arrow {
+  top: calc(50% - 14px);
+  left: calc(50% + 97px);
+  background-color: var(--color-gainsboro-100);
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+select {
+  width: 100%;
+  height: 3rem;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  border-radius: var(--br-11xs);
+  padding: 0.5rem;
+  font-size: var(--font-size-lgi);
+}
+
+.drop-down
+.dropdown-types,
+.dropdown-types1 {
+  background-color: var(--color-skyblue-100);
+}
+.arrow-item,
+.drop-down-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.drop-down-item {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.arrow-item {
+  top: calc(50% - 14px);
+  left: calc(50% - 14px);
+  background-color: var(--color-gainsboro-100);
+}
+.bxsup-arrow-icon1 {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: calc(50% - 10px);
+  width: 1.125rem;
+  height: 1.125rem;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+}
+.arrow1 {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: calc(50% + 97px);
+  background-color: var(--color-gainsboro-100);
+  width: 1.75rem;
+  height: 1.75rem;
+  z-index: 1;
+}
+
+.arrow-inner,
+.drop-down-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.drop-down-inner {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.arrow-inner {
+  top: calc(50% - 14px);
+  left: calc(50% - 14px);
+  background-color: var(--color-gainsboro-100);
+}
+.bxsup-arrow-icon2 {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: calc(50% - 10px);
+  width: 1.125rem;
+  height: 1.125rem;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+}
+.arrow2 {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: calc(50% + 97px);
+  background-color: var(--color-gainsboro-100);
+  width: 1.75rem;
+  height: 1.75rem;
+  z-index: 1;
+}
+
+.drop-down{
+  align-self: stretch;
+  height: 1.75rem;
+  position: relative;
+  background-color: var(--color-white);
+  z-index: 2;
+  margin-bottom: 1rem;
+}
+.drop-down1{
+  align-self: stretch;
+  height: 1.75rem;
+  position: relative;
+  background-color: var(--color-white);
+  z-index: 2;
+  margin-bottom: 1rem;
+}
+.drop-down2 {
+  align-self: stretch;
+  height: 1.75rem;
+  position: relative;
+  background-color: var(--color-white);
+  z-index: 2;
+  margin-bottom: 1rem;
+}
+.dropdown-options,
+.dropdown-settings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropdown-options {
+  align-self: stretch;
+  gap: var(--gap-2xs);
+}
+.dropdown-settings {
+  width: 15.625rem;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 15.625rem;
+}
+.checklist-options,
+.video-options {
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.video-options {
+  width: 38.563rem;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-34xl);
+}
+.checklist-options {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.auto-delete-option {
+  margin: 0;
+  height: 1.438rem;
+  width: 1.063rem;
+}
+.auto-delete-saved-recordings {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.recording-settings,
+.safety-options {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.safety-options {
+  width: 114.938rem;
+  background-color: var(--color-steelblue-400);
+  flex-direction: column;
+  padding: var(--padding-71xl) var(--padding-429xl) var(--padding-71xl)
+    var(--padding-431xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-skyblue-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 2000px) {
+  .camera-settings {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .joystick-settings {
+    flex-wrap: wrap;
+  }
+  .safety-options {
+    padding: var(--padding-39xl) var(--padding-205xl) var(--padding-39xl)
+      var(--padding-206xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 975px) {
+  .checklist-settings2 {
+    flex-wrap: wrap;
+  }
+  .checklist-settings3 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .checklist-settings4 {
+    flex-wrap: wrap;
+  }
+  .dropdown-settings {
+    flex: 1;
+  }
+  .video-options {
+    flex-wrap: wrap;
+    gap: var(--gap-7xl);
+  }
+  .safety-options {
+    padding: var(--padding-19xl) var(--padding-93xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aspect-ratio,
+  .auto-delete-saved-recordings,
+  .enable-custom-actions,
+  .enforce-pre-flight-checklist,
+  .go-to-location,
+  .guided-command-setting,
+  .keep-map-centered,
+  .lock-compass-nose-up,
+  .minimum-altitude,
+  .minimum-altitude1,
+  .record-file-format,
+  .show-additional-heading,
+  .show-simple-camera,
+  .show-telemetry-log,
+  .source,
+  .udp-port,
+  .update-home-position,
+  .use-pre-flight-checklist,
+  .use-vertical-instrument,
+  .video-decode-priority,
+  .video-settings,
+  .virtual-joystick {
+    font-size: var(--font-size-lgi);
+  }
+  .safety-options {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

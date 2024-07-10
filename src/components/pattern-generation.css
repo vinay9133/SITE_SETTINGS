@@ -1,0 +1,50 @@
+.checkbox-container {
+  margin: 0;
+  height: 1.438rem;
+  width: 1.063rem;
+}
+.use-mav-cmd-condition-gate-for {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.generation-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.takeoff-checkbox {
+  margin: 0;
+  height: 1.438rem;
+  width: 1.063rem;
+}
+.missions-do-not {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.pattern-generation,
+.takeoff-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.pattern-generation {
+  flex-direction: column;
+  gap: var(--gap-4xs);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-skyblue-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .missions-do-not,
+  .use-mav-cmd-condition-gate-for {
+    font-size: var(--font-size-lgi);
+  }
+}
